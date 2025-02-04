@@ -3,7 +3,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
-const baseUrl = '';
+const baseUrl = '/sdblog';
 
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
