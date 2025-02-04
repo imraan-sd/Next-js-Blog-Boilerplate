@@ -83,6 +83,7 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
       image: post.image,
       content,
     },
+    revalidate: 60,
   };
 };
 
